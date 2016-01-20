@@ -8,6 +8,8 @@ Some art has been done with the help of moodlamps:
 # r3 version and earlier versions
 Earlier versions are developed with ATmega324P, ATmega644P, ... For RS485 usage, change the MCU section in the file ubloader/Makefile.
 
+<img alt="Moodlamp Version 4, Revision 3" src="http://wiki.muc.ccc.de/_media/r3.jpg" width="300" />
+
 # r4 version (2th quarter 2015)
 Latest r4 version is designed with ATmega324A. If you get a warning from avrdude "device signature [..] expected signature [..] or use -F to override this check", put the following lines in your avrdude.conf:
 ```diff
@@ -30,3 +32,6 @@ Latest r4 version is designed with ATmega324A. If you get a warning from avrdude
  #------------------------------------------------------------
 ```
 For RS485 usage, also double check the MCU part in the file ubloader/Makefile.
+
+<img alt="Moodlamp Version 4, Revision 4" src="http://wiki.muc.ccc.de/_media/r4.jpg" width="300" />
+
